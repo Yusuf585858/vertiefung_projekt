@@ -18,27 +18,31 @@ html {
     max-width: 192rem;
 }
 
-/* ===========================
-            HEADER           
-    ==========================*/
+/* ================================================================================
+                             HEADER           
+    ===============================================================================*/
+
+
 
 header {
-    background-color: #F4C4C4;
-
+    background-color: #EFE8D7;
 }
 
 .static {
-    position: relative;
+    position: fixed;
+    width: 100%;
     font-family: athene;
-    border-bottom: 4px solid #042A5A;
+    border-bottom: 2px solid #042A5A;
     display: flex;
+    padding-top: 1.5vh;
+    padding-bottom: 1vh;
     justify-content: space-around;
     font-size: 2rem;
 }
 
 .headline {
-    margin-left: 14rem;
-    margin-right: 14rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
 }
 
 .tempo {
@@ -67,6 +71,7 @@ header {
 figure {
     padding-top: 5rem;
     text-align: center;
+
 }
 
 figcaption {
@@ -75,5 +80,89 @@ figcaption {
 
 figcaption span {
     font-size: 2rem;
+}
+
+/* ==================================================================================
+        MAIN
+    ===============================================================================*/
+
+main {
+    background-color: #F4C4C4;
+}
+
+.nulleins {
+    padding: 10vh 0 8vh 10vh;
+}
+
+.relea {
+    font-family: athene, serif;
+    font-size: 16rem;
+    font-weight: 400;
+}
+
+.se {
+    font-family: athene, serif;
+    font-size: 16rem;
+    font-weight: 400;
+}
+
+.firstofall {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* posititionn: underline */
+
+
+/* width: 50rem;
+    text-align: end; */
+
+/*  text-align: end; */
+
+/* flex-direction: row; */
+/* flex-direction: column; */
+/*   align-items: flex-end; */
+
+.firstofall p {
+    width: 53rem;
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    margin-right: 5vw;
+    font-weight: 400;
+    line-height: 3.6rem;
 
 }
+
+.liste {
+
+    display: flex;
+    justify-content: end;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    /*  text-align: right; */
+    margin-right: 5vw;
+}
+
+.ol li {
+    display: flex;
+    justify-content: space-between;
+    /* align-content: space-around; */
+}
+
+
+main .liste .ol li:nth-of-type(1) p:nth-of-type(2) {
+    padding-left: 13rem;
+    width: 28rem;
+
+
+}
+
+main .liste .ol li {
+    border-bottom: 2px solid black;
+}
+
+/* main .liste .ol li p {
+    padding-left: 13rem;
+} */
