@@ -1,3 +1,12 @@
+/* ======== Assets
+==========  Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
+         */
+
+@font-face {
+    font-family: athene;
+    src: url("../fonts/Athene.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,5 +15,65 @@
 
 html {
     font-size: 10px;
-    max-width: 192px;
+    max-width: 192rem;
+}
+
+/* ===========================
+            HEADER           
+    ==========================*/
+
+header {
+    background-color: #F4C4C4;
+
+}
+
+.static {
+    position: relative;
+    font-family: athene;
+    border-bottom: 4px solid #042A5A;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.headline {
+    margin-left: 14rem;
+    margin-right: 14rem;
+}
+
+.tempo {
+    padding-top: 5rem;
+    color: #042A5A;
+    text-align: center;
+    border-bottom: 4px solid #042A5A;
+    font-family: athene, serif;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 22rem;
+
+}
+
+.folio {
+    padding-top: 5rem;
+    color: #042A5A;
+    text-align: center;
+    border-bottom: 4px solid #042A5A;
+    font-family: athene, serif;
+    font-size: 16rem;
+    font-weight: 400;
+    line-height: 22rem;
+}
+
+figure {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 1.5rem;
+}
+
+figcaption span {
+    font-size: 2rem;
+
 }
