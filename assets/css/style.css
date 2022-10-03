@@ -82,6 +82,12 @@ header {
     line-height: 22rem;
 }
 
+h1 span {
+    letter-spacing: -1rem;
+    font-weight: bolder;
+
+}
+
 figure {
     padding-top: 5rem;
     text-align: center;
