@@ -7,6 +7,11 @@
     src: url("../fonts/Athene.otf");
 }
 
+@font-face {
+    font-family: opensans;
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +22,15 @@ html {
     font-size: 10px;
     max-width: 192rem;
 }
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: opensans;
+}
+
 
 /* ================================================================================
                              HEADER           
@@ -76,6 +90,7 @@ figure {
 
 figcaption {
     font-size: 1.5rem;
+    padding: 4vh 0;
 }
 
 figcaption span {
@@ -83,7 +98,7 @@ figcaption span {
 }
 
 /* ==================================================================================
-        MAIN
+                        SECTION1
     ===============================================================================*/
 
 main {
@@ -92,6 +107,7 @@ main {
 
 .nulleins {
     padding: 10vh 0 8vh 10vh;
+    font-size: 1.6rem;
 }
 
 .relea {
@@ -112,18 +128,6 @@ main {
     justify-content: flex-end;
 }
 
-/* posititionn: underline */
-
-
-/* width: 50rem;
-    text-align: end; */
-
-/*  text-align: end; */
-
-/* flex-direction: row; */
-/* flex-direction: column; */
-/*   align-items: flex-end; */
-
 .firstofall p {
     width: 53rem;
     font-size: 1.8rem;
@@ -131,18 +135,29 @@ main {
     margin-right: 5vw;
     font-weight: 400;
     line-height: 3.6rem;
+    padding-bottom: 5vh;
 
 }
 
+/* ============================ Tabelle ======================= */
 .liste {
 
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.8rem;
     /*  text-align: right; */
     margin-right: 5vw;
+}
+
+.princip {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5vw;
+    font-size: 1.6rem;
+    font-weight: 400;
+
 }
 
 .ol li {
@@ -155,14 +170,290 @@ main {
 main .liste .ol li:nth-of-type(1) p:nth-of-type(2) {
     padding-left: 13rem;
     width: 28rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    text-align: right;
 
+}
 
+main .liste .ol li:nth-of-type(2) p:nth-of-type(2) {
+    padding-left: 13rem;
+    width: 28rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    text-align: right;
+}
+
+main .liste .ol li:nth-of-type(3) p:nth-of-type(2) {
+    padding-left: 13rem;
+    width: 28rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    text-align: right;
 }
 
 main .liste .ol li {
     border-bottom: 2px solid black;
+    /* padding-bottom: 2vh; */
 }
 
-/* main .liste .ol li p {
-    padding-left: 13rem;
-} */
+.li1 {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-top: 2px solid black;
+}
+
+.li2 {
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+.li3 {
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+main .liste .ol li:nth-of-type(1) p:nth-of-type(1) {
+    padding-top: 1vh;
+}
+
+main .liste .ol li:nth-of-type(2) p:nth-of-type(1) {
+    padding-top: 1vh;
+}
+
+main .liste .ol li:nth-of-type(3) p:nth-of-type(1) {
+    padding-top: 1vh;
+}
+
+.letswork {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5vw;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.letswork img {
+    width: 7vw;
+}
+
+
+/* ========================== SECTION 2 ======================== 
+================================================================*/
+
+.section2 {
+    background-color: #DEB873;
+}
+
+.nullzwei {
+    text-align: right;
+    padding: 10vh 8vh 4vh 0vh;
+    font-size: 1.6rem;
+}
+
+.wor {
+    font-family: athene, serif;
+    font-size: 16rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+.ks {
+    font-family: athene, serif;
+    font-size: 16rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+.everyweb {
+    margin-left: 5vw;
+}
+
+.everyweb {
+    width: 53rem;
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    /* margin-right: 5vw; */
+    font-weight: 400;
+    line-height: 3.6rem;
+    padding-bottom: 5vh;
+}
+
+.rodrigopic {
+    height: 100vh;
+    margin-top: 20vh;
+}
+
+.rodrigopic {
+    background-image: url("../img/bg-marconatto-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 47vw 0;
+
+
+}
+
+.rodrigopic h3 {
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: athene, serif;
+    padding-left: 10vw;
+}
+
+.kaethe {
+    height: 100vh;
+    margin-top: 20vh;
+}
+
+.kaethe {
+    background-image: url("../img/kathe_cover-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 10vw 0;
+
+}
+
+.kaethe .käthe {
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: athene, serif;
+    padding-left: 40vw;
+}
+
+.kaethe .koll {
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: athene, serif;
+    padding-left: 25vw;
+
+}
+
+.victor {
+    height: 100vh;
+    margin-top: 20vh;
+
+}
+
+.victor {
+    background-image: url("../img/bg-nicole-1.jpg");
+    height: 100vh;
+    margin-top: 20vh;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 47vw 0;
+}
+
+.foliov {
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: athene, serif;
+    padding-left: 10vw;
+}
+
+.number {
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: athene, serif;
+    padding-left: 10vw;
+}
+
+.ski {
+    height: 100vh;
+    margin-top: 20vh;
+}
+
+.ski {
+    background-image: url("../img/boa_cover-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 10vw 0;
+}
+
+.bored {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: athene, serif;
+    padding-right: 3vw;
+}
+
+.authority {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: athene, serif;
+    padding-right: 3vw;
+}
+
+/* ======================= FOOTER ============================ */
+
+.footer {
+    background: #D2D2D2;
+}
+
+.nulldrei {
+    text-align: left;
+    padding: 10vh 0 8vh 10vh;
+    font-size: 1.6rem;
+}
+
+.conta {
+    font-family: athene, serif;
+    font-size: 16rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.ct {
+    font-family: athene, serif;
+    font-size: 16rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.middletext {
+    /* display: flex;
+    justify-content: center; */
+    width: 53rem;
+    margin-left: 34vw;
+    margin-right: 34vw;
+    padding-top: 10vh;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 4.8rem;
+
+}
+
+.links {
+    text-align: right;
+    padding-right: 3vw;
+    list-style: none;
+    padding-bottom: 3rem;
+    padding-top: 20vh;
+
+
+}
+
+.links li {
+    margin: 1rem 0;
+    font-size: 2.4rem;
+    line-height: 4.8rem;
+    font-weight: 400;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
